@@ -1,12 +1,10 @@
 // add Initials code here
 size(300,300);
 
-// Background
 background(0,0,0);
 fill(#FFEB0D);
 ellipse(145,150,250,270);
 
-// The A
 stroke(255,0,0);
 strokeWeight(5);
 line(130,50,80,210);
@@ -21,8 +19,6 @@ line(130,130,180,130);
 line(130,130,155,80);
 line(155,80,180,130);
 
-
-//3D Part
 noFill();
 quad(80,210,70,170,115,20,130,50);
 line(80,210,70,170);
